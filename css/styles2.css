@@ -1,0 +1,27 @@
+#about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15%;
+    background: #433e3b;
+    font-family: 'Lato', cursive;
+    text-align: center;
+}
+#portfolio .row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.col-sm-3{
+    margin: 5%;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 25%;
+    max-width: 80%;
+}
